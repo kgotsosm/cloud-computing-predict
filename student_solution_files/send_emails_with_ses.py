@@ -34,13 +34,13 @@ def lambda_handler(event, context):
     # Replace sender@example.com with your "From" address.
     # This address must be verified with Amazon SES.
     # --- Insert your code here ---
-    SENDER = 'sender@example.com'
+    SENDER = 'kgotsomakhalimele@gmail.com'
     # -----------------------------
 
     # Replace recipient@example.com with a "To" address. If your account 
     # is still in the sandbox, this address must be verified.
     # --- Insert your code here ---
-    RECIPIENT = 'recipient@example.com' 
+    RECIPIENT = 'kgotsom@protonmail.com.com' 
     # -----------------------------
 
 
@@ -65,7 +65,7 @@ def lambda_handler(event, context):
             Destination={
                 'ToAddresses': [
                     RECIPIENT,
-                    # 'edsa.predicts@explore-ai.net', # <--- Uncomment this line once you have successfully tested your predict end-to-end
+                    'edsa.predicts@explore-ai.net', # <--- Uncomment this line once you have successfully tested your predict end-to-end
                 ],
             },
             Message={
